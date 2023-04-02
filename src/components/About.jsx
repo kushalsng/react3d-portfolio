@@ -1,6 +1,7 @@
 import React from 'react'
 import Tilt from 'react-tilt'
 import { motion } from 'framer-motion'
+import { SectionWrapper } from '../hoc'
 
 import { styles } from '../style'
 import { services } from '../constants'
@@ -55,4 +56,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, 'about')
