@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import klogo from "./klogo.svg"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -22,18 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import jft from "./company/jft-logo.png";
+import quadb from "./company/quadb-logo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import howdy from "./howdy.png"
+import cryptoanalysis from "./cryptoanalysis.png"
+import buyout from "./buyout.png"
 
 export {
   logo,
-  klogo,
   backend,
   creator,
   mobile,
@@ -54,11 +50,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  jft,
+  quadb,
+  howdy,
+  cryptoanalysis,
+  buyout
 };

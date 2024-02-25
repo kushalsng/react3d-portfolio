@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from '../style'
 import { navLinks } from '../constants'
-import { klogo, menu, close } from '../assets'
+import { menu, close } from '../assets'
 
 
 const Navbar = () => {
@@ -19,7 +19,6 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
         >
-          <img src={klogo} alt="logo" className='w-9 h-9 object-contain' />
           <p className='text-white font-bold text-[18px] cursor-pointer'>Kushal Singh</p>
         </Link>
         <ul className='gap-10 hidden sm:flex flex-row list-none'>
