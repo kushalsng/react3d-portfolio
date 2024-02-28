@@ -1,13 +1,13 @@
 import Tilt from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
-import { github } from '../assets'
+import { github, redirect } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
-const ProjectCard = ({index, name, description, tags, image,  source_code_link }) => {
+const ProjectCard = ({index, name, description, tags, image,  source_code_link, deployed_link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -35,7 +35,10 @@ const ProjectCard = ({index, name, description, tags, image,  source_code_link }
         </div>
 
         <div className='mt-5'>
-        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        <h3 onClick={() => deployed_link && window.open(deployed_link, "_blank")} className='flex items-center text-white font-bold text-[24px] cursor-pointer'>
+          {name}
+          <img src={redirect} alt="github" className='mx-2 w-[1rem] h-[1rem] object-contain' />
+        </h3>
         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
         <div className='mt-4 flex flex-wrap gap-2'>

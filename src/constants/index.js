@@ -208,11 +208,12 @@ const projects = [
     ],
     image: howdy,
     source_code_link: 'https://github.com/kushalsng/howdy',
+    deployed_link: 'https://howdy-there.onrender.com'
   },
   {
     name: 'Crypto Analysis',
     description:
-      'Web-based responsive cryptocurrency tracking website built using React. It allows users to view current prices and information about various cryptocurrencies. Also, users can authenticate using custom sign in or Google authentication, add coins to a watchlist, with all data being stored in a Firebase database.',
+    'Web-based responsive cryptocurrency tracking website built using React. It allows users to view current prices and information about various cryptocurrencies. Also, users can authenticate using custom sign in or Google authentication, add coins to a watchlist, with all data being stored in a Firebase database.',
     tags: [
       {
         name: 'react',
@@ -229,6 +230,7 @@ const projects = [
     ],
     image: cryptoanalysis,
     source_code_link: 'https://github.com/kushalsng/crypto-analysis',
+    deployed_link: 'https://crypto-analysis-info.netlify.app'
   },
   {
     name: 'Buy Out',
