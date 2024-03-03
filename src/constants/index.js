@@ -120,9 +120,9 @@ const experiences = [
     iconBg: '#000',
     date: 'May 2023 - Present',
     points: [
-      "Worked on Konarkpro.com, a timetracking application, using technologies such as EJS view engine, React, Sails.js, Node.js, Electron.js, SCSS, and Docker.",
+      "Worked on Konarkpro.com, a time-tracking application, using technologies such as EJS view engine, React, Sails.js, Node.js, Electron.js, SCSS, and Docker.",
       "Improved website performance by reducing load time by 2000 ms through the migration of server-side EJS web pages to client-side React pages.",
-      "Optimized desktop application build size, reducing it from 75mb to 60mb.",
+      "Optimized desktop application build size, reducing it from 75 MB to 60 MB.",
       "Developed a reusable script for efficient organization of data stored in AWS S3 buckets, resulting in faster data retrieval.",
       "Handled all aspects of the project independently, including frontend, backend, and desktop application development.",
       "Contributed to other projects like Assessmart, an Online Coding Test Platform."
@@ -135,10 +135,10 @@ const experiences = [
     iconBg: '#000',
     date: 'November 2022 - April 2023',
     points: [
-      'Contributed on a live project and worked on EJS view engine and sails.js',
-      'Made small frontend and full stack projects to practice and learn thoroughly about fundamentals of web development',
-      'Interacted with other peers and seniors who provided with resources to work on in real-world scenarios',
-      'Learned basics of various different frameworks like NEST.js, NEXT.js, Sails.js.',
+      'Contributed to a live project and worked on EJS view engine and sails.js.',
+      'Made small frontend and full stack projects to practice and learn thoroughly about the fundamentals of web development.',
+      'Interacted with other peers and seniors who provided me with resources to work on in real-world scenarios.',
+      'Learned basics of various different frameworks like NEST.js, NEXT.js, and Sails.js.',
     ],
   },
   {
@@ -148,9 +148,9 @@ const experiences = [
     iconBg: '#fff',
     date: 'June 2021 - October 2021',
     points: [
-      'Worked on a live course selling e-commerce website with more than 5000 active users',
-      'Created 100+ new rest APIs including analytical APIs and improved the response time of numerous existing slow APIs resulting in loading time reduction by 27%.',
-      'Overall reduced the initial loading time of the website by 200ms',
+      'Worked on a live course selling e-commerce website with more than 5000 active users.',
+      'Created 100+ new rest APIs including analytical APIs and improved the response time of numerous existing slow APIs resulting in a loading time reduction of 27%.',
+      'Overall reduced the initial loading time of the website by 15 seconds.',
       'Collaborated with frontend engineers and provided them with APIs and resolved any query or confusion with effective communication',
     ],
   },
