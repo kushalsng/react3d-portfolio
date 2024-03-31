@@ -28,10 +28,11 @@ const Ball = (props) => {
   )
 }
 
-const BallCanvas = ({icon}) => (
+const BallCanvas = ({icon, dataTooltipTarget}) => (
   <Canvas
     frameloop='demand'
     gl={{preserveDrawingBuffer: true}}
+    data-tooltip-target={dataTooltipTarget}
   >
     <Suspense fallback={<CanvasLoader />} >
       <OrbitControls enableZoom={false}
