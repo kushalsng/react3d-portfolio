@@ -24,10 +24,15 @@ import threejs from "./tech/threejs.svg";
 
 import jft from "./company/jft-logo.png";
 import quadb from "./company/quadb-logo.png";
+import irh from "./company/ironrodhealth_logo.jpg";
 
 import howdy from "./howdy.png"
 import cryptoanalysis from "./cryptoanalysis.png"
 import buyout from "./buyout.png"
+
+import prithviImage from './feedback-user-dp/Prithvi-JFT.jpg'
+import khushbooImage from './feedback-user-dp/Khushboo-JFT.png'
+import rajeswarImage from './feedback-user-dp/Rajeswar-JFT.jpg'
 
 export {
   logo,
@@ -53,8 +58,12 @@ export {
   threejs,
   jft,
   quadb,
+  irh,
   howdy,
   cryptoanalysis,
   buyout,
-  redirect
+  redirect,
+  prithviImage,
+  khushbooImage,
+  rajeswarImage
 };
