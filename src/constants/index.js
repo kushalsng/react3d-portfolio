@@ -25,6 +25,10 @@ import {
   prithviImage,
   rajeswarImage,
   irh,
+  spring,
+  aws,
+  azure,
+  gcp,
 } from "../assets";
 
 export const navLinks = [
@@ -44,7 +48,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "MERN Enthusiast",
+    title: "Spring Enthusiast",
     icon: web,
   },
   {
@@ -63,6 +67,34 @@ const services = [
 
 const technologies = [
   {
+    name: "Spring",
+    icon: spring,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "GCP",
+    icon: gcp,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -79,20 +111,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
   },
   {
     name: "MongoDB",
@@ -109,10 +133,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

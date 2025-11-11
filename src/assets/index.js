@@ -21,6 +21,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aws from "./tech/aws-inverted.png";
+import gcp from "./tech/gcp-inverted.png";
+import azure from "./tech/azure-inverted.png";
+import spring from "./tech/spring-inverted.png";
 
 import jft from "./company/jft-logo.png";
 import quadb from "./company/quadb-logo.png";
@@ -65,5 +69,9 @@ export {
   redirect,
   prithviImage,
   khushbooImage,
-  rajeswarImage
+  rajeswarImage,
+  aws,
+  gcp,
+  azure,
+  spring
 };
