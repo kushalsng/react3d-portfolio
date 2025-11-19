@@ -86,7 +86,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
@@ -124,10 +124,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
 ];
 

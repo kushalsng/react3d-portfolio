@@ -22,6 +22,12 @@ const Navbar = () => {
           <p className='text-white font-bold text-[18px] cursor-pointer'>Kushal Singh</p>
         </Link>
         <ul className='gap-10 hidden sm:flex flex-row list-none'>
+            <li
+              key={'download-resume'}
+              className={`hidden sm:inline-block rounded-lg  text-secondary hover:text-white text-[18px] font-medium cursor-pointer` }
+            >
+              <a href="/kushal-singh-resume.pdf" download="Kushal Singh Resume.pdf">Download Resume</a>
+            </li>
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -41,6 +47,13 @@ const Navbar = () => {
           />
           <div className={`${toggle ? "flex" : "hidden"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
           <ul className='gap-10 flex justify-end items-start flex-col gap-4'>
+            <li
+              key={"download-resume"}
+              className={`text-secondary font-poppins text-[16  px] font-medium cursor-pointer` }
+            >
+              <a href="/kushal-singh-resume.pdf" download="Kushal Singh Resume.pdf">Download Resume</a>
+
+            </li>
           {navLinks.map((link) => (
             <li
               key={link.id}
