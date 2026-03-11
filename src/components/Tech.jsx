@@ -10,6 +10,7 @@ import Tilt from 'react-tilt'
 const TechCard = ({ index, name, icon }) => {
   return (
     <motion.div 
+    //TODO: increase speed of this motion and make sure all cards come at once, not 1 at a time.
       variants={fadeIn("up", "spring", 0.3 * index, 0.6)} 
       className="w-20" // smaller width here, adjust as needed
     >

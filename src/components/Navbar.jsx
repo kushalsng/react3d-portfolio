@@ -26,7 +26,7 @@ const Navbar = () => {
               key={'download-resume'}
               className={`hidden sm:inline-block rounded-lg  text-secondary hover:text-white text-[18px] font-medium cursor-pointer` }
             >
-              <a href="/kushal-singh-resume.pdf" download="Kushal Singh Resume.pdf">Download Resume</a>
+              <a href="/Kushal Singh Resume.pdf" download="Kushal Singh Resume.pdf">Download Resume</a>
             </li>
           {navLinks.map((link) => (
             <li
